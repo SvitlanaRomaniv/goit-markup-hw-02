@@ -53,7 +53,7 @@ button {
 }
 .address-link:hover,
 .address-link:focus {
-background-color: #404BBF
+ color: #404BBF
 }
 
 /*  Hero image section */
@@ -79,7 +79,7 @@ background-color: #2E2F42;
 }
 .hero-button:hover,
 .hero-button:focus
-{   color: #404BBF;
+{   background-color: #404BBF;
 }
 /* Benefits */
 
