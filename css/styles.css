@@ -1,5 +1,5 @@
 body {
-font-family: "Roboto","Monserrat","Arial" sans-serif;
+font-family: "Roboto" sans-serif;
 color: #434455;
 background-color:  #FFF;;
 }
@@ -69,15 +69,15 @@ background-color: #2E2F42;
 }
 .hero-button{
     color:  #FFF;
-    border-radius: 4px;
         background-color: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
 }
-.hero-button:hover
+.hero-button:hover,
+.hero-button:focus
 {   color: #404BBF;
 }
 /* Benefits */
@@ -100,22 +100,18 @@ background-color: #2E2F42;
 }
 .team-title{
     color:  #2E2F42;
-        text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 .team-item{
-    border-radius: 0px 0px 4px 4px;
         background: #FFF;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-subtitle{
-    color:  #2E2F42;
-        text-align: center;
+    color: #434455;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -123,7 +119,6 @@ background-color: #2E2F42;
 }
 .team-description{
     color: #434455;
-        text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -131,7 +126,6 @@ background-color: #2E2F42;
 /*  Our portfolio */
 .page-portfolio{
     color: #2E2F42;
-        text-align: center;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -139,7 +133,6 @@ background-color: #2E2F42;
         text-transform: capitalize;
 }
 .portfolio-item{
-    border: 1px solid #E7E9FC;
     background-color:  #FFF;
 }
 .portfolio-subtitle{
